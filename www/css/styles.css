@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body {
+  background: #CCFBFE;
+}
+
+
+
+p {
+  font-family: "Solway"
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: white;
+  text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width:100%;
+}
+
+.action {
+    position: absolute;
+    top: 65%;
+    left: 61%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width:100%;
+}
+
+.header img {
+margin: auto;
+height: 100px;
+}
+
+footer {
+margin:auto;
+text-align: center;
+padding: 15px;
+}
+
+footer p{
+  font-family: "Solway", cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 95%;
+  margin: auto;
+  cursor: pointer;
+  background-color: red;
+}
+h2 {
+  font-size: 50px;
+  margin: 0px;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  line-height: 40px;
+}
+h4 {
+  font-size: 50px;
+  margin: 0px;
+  color: black;
+  font-family: "Indie Flower", cursive;
+  line-height: 40px;
+}
+
+
+h5 {
+  font-size: 20px;
+  margin: 0px;
+  color: white;
+  font-family: "Indie Flower", cursive;
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 45%;
+    margin: auto;
+    cursor: pointer;
+    background-color: red;
+    margin-top: 50px;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 0px;
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    line-height: 60px;
+  }
+
+  h4 {
+    font-size: 35px;
+    margin: 0px;
+    color: black;
+    font-family: "Indie Flower", cursive;
+    line-height: 60px;
+  }
+
+  h5 {
+    font-size: 30px;
+    margin: 0px;
+    color: white;
+    font-family: "Indie Flower", cursive;
+  }
+
+}
