@@ -6,66 +6,65 @@ body {
   background: #CCFBFE;
 }
 
-
-
 p {
-  font-family: "Solway"
+  font-family: "Solway";
+  text-align: center;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
 }
 
-.container {
+.textcont {
   padding: 2px 16px;
   background-color: white;
   text-align: center;
 }
 
 img {
-    display: block;
-    max-width: 100%
+  display: block;
+  max-width: 100%
 }
 
 .thumbnail {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50% );
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    width:100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 100%;
 }
 
 .action {
-    position: absolute;
-    top: 65%;
-    left: 61%;
-    transform: translate( -50%, -50% );
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    width:100%;
+  position: absolute;
+  top: 65%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 100%;
 }
 
 .header img {
-margin: auto;
-height: 100px;
+  margin: auto;
+  height: 100px;
 }
 
 footer {
-margin:auto;
-text-align: center;
-padding: 15px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
 }
 
-footer p{
+footer p {
   font-family: "Solway", cursive;
   font-size: 15px;
   font-weight: bold;
@@ -81,7 +80,9 @@ footer p{
   margin: auto;
   cursor: pointer;
   background-color: red;
+  margin-top: 40px;
 }
+
 h2 {
   font-size: 50px;
   margin: 0px;
@@ -89,14 +90,22 @@ h2 {
   font-family: "Indie Flower", cursive;
   line-height: 40px;
 }
+
+h3 {
+  font-size: 15px;
+  margin: 0px;
+  color: black;
+  font-family: "Permanent Marker", cursive;
+  line-height: 60px;
+}
+
 h4 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 0px;
   color: black;
   font-family: "Indie Flower", cursive;
   line-height: 40px;
 }
-
 
 h5 {
   font-size: 20px;
@@ -104,7 +113,6 @@ h5 {
   color: white;
   font-family: "Indie Flower", cursive;
 }
-
 
 /* Desktop */
 @media only screen and (min-width: 961px) {
@@ -117,6 +125,16 @@ h5 {
     background-color: red;
     margin-top: 50px;
   }
+
+  h2 {
+    font-size: 75px;
+    margin: 0px;
+    color: white;
+    font-family: "Indie Flower", cursive;
+    line-height: 40px;
+
+  }
+
   h3 {
     font-size: 20px;
     margin: 0px;
@@ -139,5 +157,4 @@ h5 {
     color: white;
     font-family: "Indie Flower", cursive;
   }
-
 }
